@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "dev": "wrangler dev --assets ./assets",
+    "deploy": "wrangler deploy --assets ./assets",
+    "start": "wrangler dev"
+  },
+  "dependencies": {
+    "hono": "^3.12.8"
+  },
+  "devDependencies": {
+    "@cloudflare/ai": "^1.0.50",
+    "@cloudflare/workers-types": "^4.20240129.0",
+    "discord-api-types": "^0.37.68",
+    "wrangler": "^3.25.0"
+  }
+}
